@@ -4,35 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-      <title> <img src="https://raw.githubusercontent.com/Jae9872/git/main/logo.jpg" alt="Logo">
-        Huxan Holdings Group
-    </title>
+    <title>Haxan Group</title>
     <style>
         body {
             margin: 0;
             padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
         }
 
-        img {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin: auto;
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #007bff;
+            padding: 1em;
         }
 
-        @media only screen and (max-width: 600px) {
-            /* Adjust styles for smaller screens, e.g., phones */
-            img {
-                width: 100%;
-            }
+        header img {
+            height: 3em;
+        }
+
+        .main-section {
+            text-align: center;
+            padding: 2em;
+        }
+
+        .project-section,
+        .contact-section {
+            text-align: center;
+            padding: 2em;
+            background-color: #fff;
+            margin: 2em 0;
+        }
+
+        h1 {
+            margin-bottom: 1em;
+            color: #007bff;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        .project {
+            margin-top: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
         }
     </style>
 </head>
 <body>
 
-    <!-- Replace the link below with the actual direct link to your image -->
-    <img src="https://github.com/Jae9872/git/raw/main/image.jpg" alt="Responsive Image">
+    <header>
+        <img src="https://raw.githubusercontent.com/Jae9872/git/main/logo.png" alt="Logo">
+    </header>
+
+    <div class="main-section">
+        <img src="https://github.com/Jae9872/git/raw/main/image.jpg" alt="Responsive Image" style="width: 100%;">
+    </div>
+
+    <div class="project-section">
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>Project 1</h2>
+            <p>Details about Project 1...</p>
+        </div>
+        <div class="project">
+            <h2>Project 2</h2>
+            <p>Details about Project 2...</p>
+        </div>
+        <div class="project">
+            <h2>Project 3</h2>
+            <p>Details about Project 3...</p>
+        </div>
+        <div class="project">
+            <h2>Project 4</h2>
+            <p>Details about Project 4...</p>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <h1>Contact Us</h1>
+        <p>79411 | info@haxangroup.com</p>
+    </div>
+
+    <footer>
+        &copy; 2023 Haxan Group. All rights reserved.
+    </footer>
 
 </body>
 </html>
